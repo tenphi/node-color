@@ -1,4 +1,4 @@
-With this module you can simple manipulate with color`s parameters.
+With this module you can simple manipulate color`s parameters.
 
 Just create one:
 
@@ -45,6 +45,15 @@ color('#33f').rgb(); // rgb(50, 50, 255)
 color([50, 50, 255, .5]); // rgba(50, 50, 255, 0.5)
 ```
 
+Get/set absolute parameters of color:
+
+```javascript
+clr.lightness(.5).lightness(); // .5
+clr.saturation(.5).saturation(); // .5
+clr.hue(180).hue(); // 180
+clr.fade(.5).fade(); // .5
+```
+
 It's not all! Also you have a really nice function that can calculate and set real (visible) lightness of your color. This value between 0 to 360. Check this out:
 
 ```javascript
@@ -84,5 +93,7 @@ And then select them by their names:
 ```javascript
 color('purple').lighten(.1).hex(); // "#8752bf"
 ```
+
+If you have some ideas how improve this module you can send them to my email: tenphi@gmail.com
 
 Enjoy!
