@@ -38,11 +38,11 @@ clr.mix(clr2);    // return a mix of base color and other color
 Now, you can fetch your color:
 
 ```javascript
-color('#33f').toString(); // "#3399ff"
-color('#33f') + ''; // "#3399ff"
-color('#33f').hex(); // "#3399ff"
-color('#33f').rgb(); // rgb(50, 50, 255)
-color([50, 50, 255, .5]); // rgba(50, 50, 255, 0.5)
+color('#39f').toString(); // "#3399ff"
+color('#39f') + ''; // "#3399ff"
+color('#39f').hex(); // "#3399ff"
+color('#39f').rgb(); // rgb(51, 153, 255)
+color([153, 153, 255, .5]); // rgba(51, 153, 255, 0.5)
 ```
 
 Get/set absolute parameters of color:
